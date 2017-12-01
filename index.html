@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25%
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2560px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<center><h1>Online Kitteh Gallery</h1><br>
+<h2>(these are some of my favorite photos)</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/-iq04WO9WeYS8sKpGGz8oJXKon8ehtsMSGWy5CqqxUDKRKP-yiTLEySO5qnqwyZACsDKR3JW8eQ_wK-grSujQoasDA06DAy_q3D71zXE88_5chXedNATHyxVh9fvCGlLbcUsCgQq
+">
+    <img src="https://lh3.googleusercontent.com/-iq04WO9WeYS8sKpGGz8oJXKon8ehtsMSGWy5CqqxUDKRKP-yiTLEySO5qnqwyZACsDKR3JW8eQ_wK-grSujQoasDA06DAy_q3D71zXE88_5chXedNATHyxVh9fvCGlLbcUsCgQq" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">Meeting Of The Tired Kittehs</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh4.googleusercontent.com/micnau3TbXl-Q9tP0v17TqCcMZMc7rTECpnagsh9Q9_XckwK6ykZ9wJjVPpOFN9cnZMY1jf8HPVZNZTCodJgKJUesJsavBT0KS7IMIW5F3yVrBEik-EpDkoR0ARvRxM_FD2Bx64N">
+    <img src="https://lh4.googleusercontent.com/micnau3TbXl-Q9tP0v17TqCcMZMc7rTECpnagsh9Q9_XckwK6ykZ9wJjVPpOFN9cnZMY1jf8HPVZNZTCodJgKJUesJsavBT0KS7IMIW5F3yVrBEik-EpDkoR0ARvRxM_FD2Bx64N" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Cinnamon Bun Kitteh</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh6.googleusercontent.com/KZyCM5BDLKGMpfGafFDWkBpEFV3JGson4bepatIvXUVZzaa4byEsPlIXANTWv6fbUAPLvUzSoNY_Zys1YgiZHuYGe2U9IWsmhxz8iI38LNhJCHJhhNAbf5seCNs3gvmNaCtx5Dc7">
+    <img src="https://lh6.googleusercontent.com/KZyCM5BDLKGMpfGafFDWkBpEFV3JGson4bepatIvXUVZzaa4byEsPlIXANTWv6fbUAPLvUzSoNY_Zys1YgiZHuYGe2U9IWsmhxz8iI38LNhJCHJhhNAbf5seCNs3gvmNaCtx5Dc7" width="300" height="200">
+  </a>
+  <div class="desc">5 More Minutes...</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/3d9hHPrwbOTn5C7JqsHFNuse9z_hHjkMBZnPQpeROg-EpD5IbJCNmWCg2QDEX9Pjs0zZBKQarovmQ7m2wlAu7FyCukikyIXXpoMhk2B12mAyhjpqXcfNwDOhoLjg7aD_jglt46n3">
+    <img src="https://lh3.googleusercontent.com/3d9hHPrwbOTn5C7JqsHFNuse9z_hHjkMBZnPQpeROg-EpD5IbJCNmWCg2QDEX9Pjs0zZBKQarovmQ7m2wlAu7FyCukikyIXXpoMhk2B12mAyhjpqXcfNwDOhoLjg7aD_jglt46n3" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Sideways Kitteh</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/WtMQqkR9Xg2TK9c_ISOFNUkspiSxcqRJlj7O2JBzoIRi8tdNouQNssftb-Aji8gbFQa_0myZYszIXrbq7cIyuLwokELJ04ykDSIKlxX4Kj7dZvAyU1YLBiedBtV_dVZ7Tu1UH8ro">
+    <img src="https://lh3.googleusercontent.com/WtMQqkR9Xg2TK9c_ISOFNUkspiSxcqRJlj7O2JBzoIRi8tdNouQNssftb-Aji8gbFQa_0myZYszIXrbq7cIyuLwokELJ04ykDSIKlxX4Kj7dZvAyU1YLBiedBtV_dVZ7Tu1UH8ro" width="300" height="200">
+  </a>
+  <div class="desc">"Why Do You Disturb Us Human?"</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh5.googleusercontent.com/RT3144LCyq0PvEWhZpa1a67QfYcRRDQ--EOWa96n_Xhm0MBkO8c4lb5frq0HHERG34gizLJg_ga__XkVXLxtEXPoKYnanYYN76Z6bq9eMAkJBUsNUZjTpUGxn8Byy-rbc7zPSgn7">
+    <img src="https://lh5.googleusercontent.com/RT3144LCyq0PvEWhZpa1a67QfYcRRDQ--EOWa96n_Xhm0MBkO8c4lb5frq0HHERG34gizLJg_ga__XkVXLxtEXPoKYnanYYN76Z6bq9eMAkJBUsNUZjTpUGxn8Byy-rbc7zPSgn7" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Hat Kitteh</div>
+</div>
+
+</body>
+</html>
